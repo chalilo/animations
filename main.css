@@ -1,4 +1,44 @@
+/*GENERAL*/
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    text-align: center;
+    width: 100vw;
+    background-color: #8D99AE;
+    color: #EDF2F4;
+}
+/*HEADER*/
+header{
+    height: 100px;
+    border-bottom: solid 1px #000;
+    background-color: #2B2D42;
+}
+header h1{
+    line-height: 100px;
+}
+/*MIDDLE*/
+main{
+    height: calc(100vh - 152px);
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background: rgb(178,186,216);
+    background: linear-gradient(126deg, rgba(178,186,216,1) 0%, rgba(0,0,0,1) 30%, rgba(178,193,216,1) 88%);
+    border: solid 5px #2B2D42;
+}
+/*FOOTER*/
+footer{
+    border-top: solid 1px #000;
+    height: 50px;
+    background-color: #2B2D42;
+}
+footer p{
+    line-height: 50px;
 }
