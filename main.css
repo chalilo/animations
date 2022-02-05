@@ -42,3 +42,14 @@ footer{
 footer p{
     line-height: 50px;
 }
+/*TRANSITION*/
+header:hover{
+    background-color: #000;
+    color: #8D99AE;
+    transition: all 1s;
+}
+footer:hover{
+    background-color: #000;
+    color: #8D99AE;
+    transition: all 1s;
+}
